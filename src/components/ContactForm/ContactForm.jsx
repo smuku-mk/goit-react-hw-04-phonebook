@@ -39,8 +39,5 @@ export const ContactForm = ({ data }) => {
 };
 
 ContactForm.propTypes = {
-  data: PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    number: PropTypes.number.isRequired,
-  }),
+  data: PropTypes.func.isRequired,
 };
