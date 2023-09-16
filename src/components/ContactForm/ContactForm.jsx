@@ -39,7 +39,7 @@ export const ContactForm = ({ data }) => {
 };
 
 ContactForm.propTypes = {
-  onSubmit: PropTypes.shape({
+  data: PropTypes.shape({
     name: PropTypes.string.isRequired,
     number: PropTypes.number.isRequired,
   }),
