@@ -32,8 +32,8 @@ export const App = () => {
     );
 
     if (isContactExist) {
-      alert(`${newContact.name} is already in contacts`);
       setFilter('');
+      alert(`${newContact.name} is already in contacts`);
     } else {
       setContacts([...contacts, newContact]);
       setFilter('');
